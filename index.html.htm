@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vippala Yuktha Sree | Portfolio</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #f9fafb;
+    color: #333;
+}
+
+/* Header */
+header {
+    background: linear-gradient(135deg, #3b82f6, #06b6d4);
+    color: #fff;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.8rem;
+}
+
+header p {
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 12px;
+    font-weight: 500;
+    position: relative;
+}
+
+nav a::after {
+    content: "";
+    width: 0;
+    height: 2px;
+    background: #ffe082;
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    transition: 0.3s;
+}
+
+nav a:hover::after {
+    width: 100%;
+}
+
+/* Sections */
+section {
+    padding: 60px 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #1e3a8a;
+}
+
+/* Cards */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    background: rgba(255,255,255,0.9);
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    width: 260px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    text-align: center;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 6px 12px;
+    border-radius: 6px;
+    background: #3b82f6;
+    color: white;
+    text-decoration: none;
+    font-size: 0.85rem;
+}
+
+.btn:hover {
+    background: #1e40af;
+}
+
+/* Footer */
+footer {
+    background: #1e293b;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Hi, I’m Yuktha 👋</h1>
+    <p>Full Stack Developer (MERN) | Java | DSA | 2026 Graduate</p>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Internship</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>
+        I am a Computer Science Engineering student passionate about building modern web applications. I have hands-on experience in MERN stack development and a strong foundation in Data Structures, Algorithms, OOPs, and DBMS. I enjoy solving problems and creating responsive, user-friendly applications.
+    </p>
+</section>
+
+<section id="skills">
+    <h2>Skills</h2>
+    <div class="container">
+        <div class="card">Java</div>
+        <div class="card">JavaScript</div>
+        <div class="card">HTML & CSS</div>
+        <div class="card">React.js</div>
+        <div class="card">Node.js</div>
+        <div class="card">MongoDB</div>
+        <div class="card">DSA</div>
+        <div class="card">Git & GitHub</div>
+    </div>
+</section>
+
+<section id="projects">
+    <h2>Projects</h2>
+    <div class="container">
+
+        <div class="card">
+            <h3>🛒 E-Commerce App</h3>
+            <p>Full-stack application with authentication, cart, and product filtering.</p>
+            <a href="#" class="btn">Live</a>
+            <a href="#" class="btn">Code</a>
+        </div>
+
+        <div class="card">
+            <h3>🍔 Swiggy Clone</h3>
+            <p>MERN stack food delivery app with REST APIs and dynamic UI.</p>
+            <a href="#" class="btn">Live</a>
+            <a href="#" class="btn">Code</a>
+        </div>
+
+        <div class="card">
+            <h3>🌐 Portfolio</h3>
+            <p>Responsive personal website showcasing projects and skills.</p>
+            <a href="#" class="btn">Live</a>
+            <a href="#" class="btn">Code</a>
+        </div>
+
+    </div>
+</section>
+
+<section id="experience">
+    <h2>Internship</h2>
+    <p>
+        Completed Full Stack Web Development Internship at Eduversity.
+        Worked on developing web applications using MERN stack, building REST APIs,
+        and improving debugging and performance optimization skills.
+    </p>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:sreeyuktha40@gmail.com">sreeyuktha40@gmail.com</a></p>
+    <p>LinkedIn: <a href="https://linkedin.com/in/vippala-yuktha-sree">linkedin.com/in/vippala-yuktha-sree</a></p>
+    <p>GitHub: <a href="https://github.com/yukta-sree">github.com/yukta-sree</a></p>
+</section>
+
+<footer>
+    <p>© 2026 Vippala Yuktha Sree</p>
+</footer>
+
+</body>
+</html>
